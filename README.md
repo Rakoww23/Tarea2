@@ -1,3 +1,4 @@
+Rafael Porras Rakow C5I449
 1. Hilera de caracteres
 
 Una hilera de caracteres es una secuencia ordenada de caracteres que se utiliza para representar un texto en un lenguaje de programación, en este caso, Java. Cada carácter puede ser una letra, un número, un símbolo o un espacio, y juntos forman una unidad con algún significado que cada programador le asigna. Por ejemplo, palabras como "Hola", "Universidad", "2026" o incluso una frase completa como "Programar en Java es interesante" son hileras de caracteres.
