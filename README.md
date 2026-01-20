@@ -1,18 +1,28 @@
-## Getting Started
+1. Hilera de caracteres
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Una hilera de caracteres es una secuencia ordenada de caracteres que se utiliza para representar un texto en un lenguaje de programación, en este caso, Java. Cada carácter puede ser una letra, un número, un símbolo o un espacio, y juntos forman una unidad con algún significado que cada programador le asigna. Por ejemplo, palabras como "Hola", "Universidad", "2026" o incluso una frase completa como "Programar en Java es interesante" son hileras de caracteres.
 
-## Folder Structure
+En programación, las hileras se usan constantemente para almacenar y manipular información textual, como nombres de usuarios, mensajes, contraseñas o datos ingresados por teclado.
 
-The workspace contains two folders by default, where:
+2. Diferencia entre carácter y hilera
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+La principal diferencia entre un carácter y una hilera de caracteres es su tamaño y función.
+Un carácter representa una sola unidad, como 'a', '5' o '@'. En cambio, una hilera está compuesta por uno o más caracteres, organizados en un orden específico, como "Casa", "Julián" "UCR". En Java, los caracteres son representados con la palabra "char" y las hileras de caracteres por la palabra "String". 
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+3. Operaciones que se pueden realizar con una hilera
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Con una hilera de caracteres se pueden realizar diversas operaciones. Algunas de las más comunes son:
 
-## Dependency Management
+Obtener la longitud de la hilera, es decir, cuántos caracteres la componen.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Comparar dos hileras para verificar si son iguales o diferentes.
+
+Concatenar hileras, lo que permite unir dos o más textos en uno solo.
+
+Acceder a un carácter específico dentro de la hilera mediante su posición.
+
+Buscar caracteres o subhileras dentro de una hilera.
+
+Convertir la hilera a mayúsculas o minúsculas.
+
+Con dichas herramientas se puede manipular de una mejor forma cada hilera en Java.
