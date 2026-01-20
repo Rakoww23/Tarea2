@@ -5,17 +5,18 @@ public class Ejercicio6 {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Write a word");
-        String word = sc.nextLine();
+        String word = sc.nextLine().toLowerCase();
         int count = 0;
         
        for (int i = 0; i < word.length(); i++) {
             char letter = word.charAt(i);
-         word.equalsIgnoreCase("a" + "e" + "i" + "o" + "u");
+         
         if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o'|| letter == 'u')  {
+            
             count++;
         }
     }
-            System.out.println("The vocals amount is " + count);
+        System.out.println("The vocals amount is " + count);
 
 
     }

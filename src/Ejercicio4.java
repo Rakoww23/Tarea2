@@ -9,12 +9,12 @@ public class Ejercicio4 {
         System.out.println("Write the sentence");
         String sentence = sc.nextLine();
 
-        String mayusSentence = sentence.toUpperCase();
-        String minusSentence = sentence.toLowerCase();
+        String capitalSentence = sentence.toUpperCase();
+        String lowerCaseSentence = sentence.toLowerCase();
 
         System.out.println(sentence);
-        System.out.println(mayusSentence);
-        System.out.println(minusSentence);
+        System.out.println(capitalSentence);
+        System.out.println(lowerCaseSentence);
         
 
     }

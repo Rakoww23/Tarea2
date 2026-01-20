@@ -5,7 +5,7 @@ public class Ejercicio1 {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Type a characters amount");
+        System.out.println("Type a word");
         String characters = sc.nextLine();
 
         int amount = characters.length();
